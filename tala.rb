@@ -24,8 +24,7 @@ class Tala < Formula
   depends_on "d2"
 
   def install
-    bin.install "bin/d2plugin-tala"
-    man1.install "man/d2plugin-tala.1"
+    system "make", "install", "PREFIX=#{prefix}"
   end
 
   test do
