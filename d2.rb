@@ -1,22 +1,22 @@
 class D2 < Formula
   desc "Modern text to diagram language and compiler"
   homepage "https://github.com/terrastruct/d2"
-  version "0.0.12"
+  version "0.0.13"
   if OS.mac?
     if RUBY_PLATFORM.include?("x86_64")
       url "https://github.com/terrastruct/d2/releases/download/v#{version}/d2-v#{version}-macos-amd64.tar.gz"
-      sha256 "ce51e9f46effe01044ee4b8c79a78ee76a223d0f45decb20ba475e4e56dd66a7"
+      sha256 "efe15ad95f18918e5f343116d660101b1fb46adf689e2c204f9aa5a3ba89aa44"
     else
       url "https://github.com/terrastruct/d2/releases/download/v#{version}/d2-v#{version}-macos-arm64.tar.gz"
-      sha256 "eaa378b56d5d64c3e0f4adca028a1d3b284e27ff46d063690d77c8b68f50d4b2"
+      sha256 "807df20b20e7c15630b4b6dcf54b06d4baaab2b44e8a18f6b66f798aafcfcff4"
     end
   else
     if RUBY_PLATFORM.include?("x86_64")
       url "https://github.com/terrastruct/d2/releases/download/v#{version}/d2-v#{version}-linux-amd64.tar.gz"
-      sha256 "5c0a626921850ba9e1a33a67ea2aaf75f02182d68c61fd521ea558deb9558da1"
+      sha256 "64f1f6e969d55c5cea7e8de42bc1a90a538152e2bbc7712c7559a4e28701bb65"
     else
       url "https://github.com/terrastruct/d2/releases/download/v#{version}/d2-v#{version}-linux-arm64.tar.gz"
-      sha256 "cb050ed083ea88a7661bc0b325607b82e160aa26384a62915a43d2d294989064"
+      sha256 "50dc94345824fa8a8f6a2c3f4f8c238a66750ffb95f97c9c55baa98840139552"
     end
   end
   license "MPL-2.0"

@@ -4,9 +4,9 @@
 class D2FromSrc < Formula
   desc "Modern text to diagram language and compiler"
   homepage "https://github.com/terrastruct/d2"
-  version "0.0.12"
+  version "0.0.13"
   url "https://github.com/terrastruct/d2/archive/refs/tags/v#{version}.tar.gz"
-  sha256 "dfb1f28f96a59cc5427f9a2b0d85ed5dbf80b4ad05d99648d81fcd76b064e6ca"
+  sha256 "52fd8cddfb7fb34d88a0d6049c038bc31447216ede659d892ec13e288ab966e7"
   license "MPL-2.0"
   head "https://github.com/terrastruct/d2.git", branch: "master"
 
