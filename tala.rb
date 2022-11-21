@@ -20,7 +20,6 @@ class Tala < Formula
     end
   end
 
-  depends_on "go" => :build
   depends_on "d2"
 
   def install
