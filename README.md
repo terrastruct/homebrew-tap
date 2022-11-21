@@ -3,15 +3,13 @@
 ```sh
 brew tap terrastruct/d2
 brew install d2
-brew test d2
 ```
 
 ## TALA
 
-See https://github.com/terrastruct/TALA if you wish to use our proprietary layout engine.
+To install D2 + TALA (see [https://github.com/terrastruct/TALA](https://github.com/terrastruct/TALA)):
 
 ```sh
 brew tap terrastruct/d2
 brew install tala
-brew test tala
 ```
