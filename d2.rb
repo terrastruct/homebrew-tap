@@ -20,7 +20,6 @@ class D2 < Formula
     end
   end
   license "MPL-2.0"
-  head "https://github.com/terrastruct/d2.git", branch: "master"
 
   conflicts_with "d2-from-src", because: "d2-from-src also ships a d2 binary"
 
