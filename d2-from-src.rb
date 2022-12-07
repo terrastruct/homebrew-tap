@@ -4,11 +4,10 @@
 class D2FromSrc < Formula
   desc "Modern text to diagram language and compiler"
   homepage "https://github.com/terrastruct/d2"
-  version "0.0.13"
+  version "0.1.0"
   url "https://github.com/terrastruct/d2/archive/refs/tags/v#{version}.tar.gz"
-  sha256 "52fd8cddfb7fb34d88a0d6049c038bc31447216ede659d892ec13e288ab966e7"
+  sha256 "78fac0235fd583e28d961b0fd066994095a9cec4d5a834747833bbab042ab1c0"
   license "MPL-2.0"
-  head "https://github.com/terrastruct/d2.git", branch: "master"
 
   conflicts_with "d2", because: "d2 also ships a d2 binary"
 
