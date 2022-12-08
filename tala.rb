@@ -2,6 +2,7 @@ class Tala < Formula
   desc "Advanced diagram layout engine for D2"
   homepage "https://github.com/terrastruct/TALA"
   version "0.2.6"
+
   if OS.mac?
     if RUBY_PLATFORM.include?("x86_64")
       url "https://github.com/terrastruct/tala/releases/download/v#{version}/tala-v#{version}-macos-amd64.tar.gz"
