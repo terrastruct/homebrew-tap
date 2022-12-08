@@ -12,8 +12,7 @@ EOF
 }
 
 main() {
-  while :; do
-    flag_parse "$@"
+  while flag_parse "$@"; do
     case "$FLAG" in
       h|help)
         help
@@ -23,15 +22,12 @@ main() {
         flag_reqarg && shift "$FLAGSHIFT"
         JOBFILTER="$FLAGARG"
         ;;
-      '')
-        shift "$FLAGSHIFT"
-        break
-        ;;
       *)
         flag_errusage "unrecognized flag $FLAGRAW"
         ;;
     esac
   done
+  shift "$FLAGSHIFT"
 
   REPO=d2 gen_block
   REPO=tala gen_block

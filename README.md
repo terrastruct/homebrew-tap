@@ -1,15 +1,11 @@
-# homebrew-d2
+# homebrew-tap
 
-```sh
-brew tap terrastruct/d2
-brew install d2
-```
+Terrastruct's homebrew tap.
 
 ## TALA
 
-To install D2 + TALA (see [https://github.com/terrastruct/TALA](https://github.com/terrastruct/TALA)):
+To install [TALA](https://github.com/terrastruct/TALA):
 
 ```sh
-brew tap terrastruct/d2
-brew install tala
+brew install terrastruct/tap/tala
 ```
