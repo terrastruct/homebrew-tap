@@ -29,7 +29,6 @@ main() {
   done
   shift "$FLAGSHIFT"
 
-  REPO=d2 gen_block
   REPO=tala gen_block
 }
 
