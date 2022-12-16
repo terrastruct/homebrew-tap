@@ -62,12 +62,12 @@ EOF
 }
 
 extract_version() {
-  sh_c cat "$REPO.rb" | grep 'version "' | sed 's/^.*version "\([^"]*\)"$/\1/'
+  sh_c "cat '$REPO.rb' | grep 'version \"' | sed 's/^.*version \"\([^\"]*\)\"$/\1/'"
 }
 
 gen_sha256() {
   URL=https://github.com/terrastruct/$REPO/releases/download/$VERSION/$REPO-$VERSION-$OS-$ARCH.tar.gz
-  sh_c curl -fsSL# "$URL" | sha256sum | cut -f1 -d' '
+  sh_c "curl -fsSL# '$URL' | sha256sum | cut -f1 -d' '"
 }
 
 main "$@"
