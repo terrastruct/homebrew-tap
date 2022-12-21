@@ -7,7 +7,7 @@ help() {
   cat <<EOF
 usage: $0 [--run=regex]
 
-Generates the url/sha256 release asset blocks for d2.rb and tala.rb
+Generates the url/sha256 release asset blocks for tala.rb
 EOF
 }
 
