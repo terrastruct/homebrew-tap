@@ -1,23 +1,23 @@
 class Tala < Formula
   desc "Advanced diagram layout engine for D2"
   homepage "https://github.com/terrastruct/TALA"
-  version "0.3.7"
+  version "0.3.8"
 
   if OS.mac?
     if RUBY_PLATFORM.include?("x86_64")
       url "https://github.com/terrastruct/tala/releases/download/v#{version}/tala-v#{version}-macos-amd64.tar.gz"
-      sha256 "edfd65d5cfae4c5009e5ef30accc21a3ae03a3604c14c82e633eeee5a79a78c0"
+      sha256 "4818ea496a8c1da150cc84d4a257d6a91ec7fb5a1aa5dac431d793bf3e0c33f4"
     else
       url "https://github.com/terrastruct/tala/releases/download/v#{version}/tala-v#{version}-macos-arm64.tar.gz"
-      sha256 "8cb130afbdade88412164e97f82e5659abf99315dde6f1bb99b47dd2cfefe16d"
+      sha256 "12627f7f9520fdae165627fb3a7d471c461e7e9ee1661db768ea25b52a7d4cc4"
     end
   else
     if RUBY_PLATFORM.include?("x86_64")
       url "https://github.com/terrastruct/tala/releases/download/v#{version}/tala-v#{version}-linux-amd64.tar.gz"
-      sha256 "a8439b5ac0c4bbd29c9ada2ba5b5611dcf10c2a4a33f8af90e5e68b042e43cf8"
+      sha256 "8e0af6e12eb6ebbdb32d8174f8184b95ff3156751926e7d1ae23c2945fcf43b2"
     else
       url "https://github.com/terrastruct/tala/releases/download/v#{version}/tala-v#{version}-linux-arm64.tar.gz"
-      sha256 "deb869e2e46b6c712c2bd53714e0fd2c8b4ceb2fbf9b78906fe50b653248fd6a"
+      sha256 "ddff97a5fe0dc2cbb2e754f6ca52ea5c6d15837b9c3db79fe27df57a1afa118e"
     end
   end
 
