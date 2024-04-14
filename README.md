@@ -12,4 +12,4 @@ brew install terrastruct/tap/tala
 
 ## Dev
 
-To update, run `./ci/gen-sha256.sh`
+To update, first update `tala.rb`'s version to the correct one, then run `./ci/gen-sha256.sh`, then copy the snippet.
